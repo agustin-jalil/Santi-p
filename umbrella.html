@@ -1,0 +1,48 @@
+<style>html,body{position:var(--position-relative);height:var(--height-100);}body{background:var(--background-color);font-family:var(--font-family);font-size:var(--font-size-14);color:var(--color-black);margin:var(--margin-0);padding:var(--padding-0);}swiper-container{width:var(--swiper-container-width);height:var(--swiper-container-height);}swiper-slide{text-align:var(--text-align-center);font-size:var(--font-size-18);background:var(--background-color-black);display:var(--display-flex);justify-content:var(--justify-content-center);align-items:var(--align-items-center);}swiper-slide img{display:var(--display-block);width:auto;height:auto;object-fit:var(--object-fit-cover);}.mySwiper2{height:var(--mySwiper2-height);box-sizing:var(--box-sizing-border-box);padding:var(--padding-10) 0;}.mySwiper2 swiper-slide{width:var(--width-25);height:var(--height-100);opacity:var(--opacity-04);}.mySwiper2 .swiper-slide-thumb-active{opacity:var(--opacity-1);}</style>
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42242964-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-42242964-1');
+  </script>
+  <title>SantiPortfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="csrf-param" content="authenticity_token">
+  <meta name="csrf-token" content="your-csrf-token-here">
+  <link href="application.css" rel="stylesheet" data-turbo-track="reload">
+  <script src="application.css" data-turbo-track="reload" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="application.css" rel="stylesheet" data-turbo-track="reload">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="/application.css">
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $(".mobile-tap-area").click(function(){
+            $(".toggle-mobile-first").toggle();
+            $(".toggle-mobile-second").toggle();
+        });
+    });
+  </script>
+</head>
+<body style="background-color: black;">
+  <swiper-container class="mySwiper" pagination="true" pagination-type="progressbar" mousewheel="true" keyboard="true" direction="vertical" thumbs-swiper=".mySwiper2">
+    <swiper-slide><img src="https://cdnb.artstation.com/p/assets/images/images/052/036/859/large/santiago-tomassi-img-3492.jpg?1658798703"></swiper-slide>
+    <swiper-slide><img src="https://cdna.artstation.com/p/assets/images/images/052/036/858/large/santiago-tomassi-img-3518.jpg?1658798663"></swiper-slide>
+    <swiper-slide><img src="https://cdna.artstation.com/p/assets/images/images/052/036/862/large/santiago-tomassi-img-3493.jpg?1658798672"></swiper-slide>
+    <swiper-slide><img src="https://cdnb.artstation.com/p/assets/images/images/052/036/863/large/santiago-tomassi-img-3494.jpg?1658798678"></swiper-slide>
+    <swiper-slide><img src="https://cdnb.artstation.com/p/assets/images/images/052/036/867/large/santiago-tomassi-img-3517.jpg?1658798687"></swiper-slide>
+    <swiper-slide><img src="https://cdna.artstation.com/p/assets/images/images/052/036/864/large/santiago-tomassi-img-3516.jpg?1658798682"></swiper-slide>
+  </swiper-container>
+  <swiper-container class="mySwiper2" space-between="10" slides-per-view="4" free-mode="true"
+      watch-slides-progress="true">
+      <swiper-slide><img src="https://cdnb.artstation.com/p/assets/images/images/052/036/859/large/santiago-tomassi-img-3492.jpg?1658798703"></swiper-slide>
+      <swiper-slide><img src="https://cdna.artstation.com/p/assets/images/images/052/036/858/large/santiago-tomassi-img-3518.jpg?1658798663"></swiper-slide>
+      <swiper-slide><img src="https://cdna.artstation.com/p/assets/images/images/052/036/862/large/santiago-tomassi-img-3493.jpg?1658798672"></swiper-slide>
+      <swiper-slide><img src="https://cdnb.artstation.com/p/assets/images/images/052/036/863/large/santiago-tomassi-img-3494.jpg?1658798678"></swiper-slide>
+      <swiper-slide><img src="https://cdnb.artstation.com/p/assets/images/images/052/036/867/large/santiago-tomassi-img-3517.jpg?1658798687"></swiper-slide>
+      <swiper-slide><img src="https://cdna.artstation.com/p/assets/images/images/052/036/864/large/santiago-tomassi-img-3516.jpg?1658798682"></swiper-slide>
+ </swiper-container>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+</body>
